@@ -17,15 +17,15 @@ $name=@$_GET['name'];
 $course=@$_GET['course'];
 $score=@$_GET['score'];
 
-// $search=['{name}','{score}','{course}'];
-// $replaced=[$name,$score,$course];
-// $new_content=str_replace($search,$replaced,$content);
+$search=['{name}','{score}','{course}'];
+$replaced=[$name,$score,$course];
+$new_content=str_replace($search,$replaced,$content);
 
 
-// $dompdf->loadHtml($new_content);
+$dompdf->loadHtml($new_content);
 
-// // (Optional) Setup the paper size and orientation
-// $dompdf->setPaper('A4', 'landscape');
+// (Optional) Setup the paper size and orientation
+$dompdf->setPaper('A4', 'landscape');
 
 // // Render the HTML as PDF
 // $dompdf->render();
