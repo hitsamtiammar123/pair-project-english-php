@@ -11,11 +11,11 @@ $options = new Options();
 $options->set('defaultFont', 'Calibri');
 $dompdf = new Dompdf($options);
 
-// $content=file_get_contents('page.html');
+$content=file_get_contents('page.html');
 
-// $name=@$_GET['name'];
-// $course=@$_GET['course'];
-// $score=@$_GET['score'];
+$name=@$_GET['name'];
+$course=@$_GET['course'];
+$score=@$_GET['score'];
 
 // $search=['{name}','{score}','{course}'];
 // $replaced=[$name,$score,$course];
