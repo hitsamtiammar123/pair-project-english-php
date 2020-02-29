@@ -32,5 +32,5 @@ $dompdf->setPaper('A4', 'landscape');
 
 // // Output the generated PDF to Browser
 $dompdf->stream('test.pdf',[
-    'Attachment'=>0
+    'Attachment'=>1
 ]);
