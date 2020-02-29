@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-echo 'masuk';
+// echo 'masuk';
 
 use Dompdf\Dompdf;
 use Dompdf\Options;
