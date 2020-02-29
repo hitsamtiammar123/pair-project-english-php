@@ -4,12 +4,12 @@ require 'vendor/autoload.php';
 
 echo 'masuk';
 
-// use Dompdf\Dompdf;
-// use Dompdf\Options;
+use Dompdf\Dompdf;
+use Dompdf\Options;
 
-// $options = new Options();
-// $options->set('defaultFont', 'Calibri');
-// $dompdf = new Dompdf($options);
+$options = new Options();
+$options->set('defaultFont', 'Calibri');
+$dompdf = new Dompdf($options);
 
 // $content=file_get_contents('page.html');
 
